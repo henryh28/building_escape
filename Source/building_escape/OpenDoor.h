@@ -39,9 +39,8 @@ private:
 
 	float LastDoorOpenTime;
 
-	AActor* DoorOwner = GetOwner();
+	AActor* Owner;
 
-	AActor* Opener;
+	float MassOfActor();
 
-	
 };
